@@ -1,20 +1,16 @@
-/* @title    Fail-safe
-   @by       DJ_Dave
-   @license  CC BY-NC-SA (https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 ▗▄▄▄▖ ▗▄▖ ▗▄▄▄▖▗▖        ▗▄▄▖ ▗▄▖ ▗▄▄▄▖▗▄▄▄▖
 ▐▌   ▐▌ ▐▌  █  ▐▌       ▐▌   ▐▌ ▐▌▐▌   ▐▌   
 ▐▛▀▀▘▐▛▀▜▌  █  ▐▌   ▀▀▀▘ ▝▀▚▖▐▛▀▜▌▐▛▀▀▘▐▛▀▀▘
 ▐▌   ▐▌ ▐▌▗▄█▄▖▐▙▄▄▖    ▗▄▄▞▘▐▌ ▐▌▐▌   ▐▙▄▄▖
 
 
-  HI! Welcome to my first "open sourced" project :) I've been waiting for the right moment to share some actual source code with you guys and after seeing the response to Fail-safe I decided now was the perfect time.
+HI! Welcome to my first "open sourced" project :) I've been waiting for the right moment to share some actual source code with you guys and after seeing the response to Fail-safe I decided now was the perfect time.
 
-    I left notes throughout the file to help with understanding how I wrote everything -- like noting where certain elements are and which code sections you can mostly ignore. Everything is obviously editable, so go crazy! If you encounter any technical difficulties when executing this file, send a message on Discord and I'll help you!
+I left notes throughout the file to help with understanding how I wrote everything -- like noting where certain elements are and which code sections you can mostly ignore. Everything is obviously editable, so go crazy! If you encounter any technical difficulties when executing this file, send a message on Discord and I'll help you!
   
-  One last note before you get started => I want to mention that while I am making the source code and samples available, the intellectual material within this file and the samples are under ownership of my label and I, whic is why I have it under a CC BY-NC-SA license. If you have any questions feel free to send me a message.
+One last note before you get started => I want to mention that while I am making the source code and samples available, the intellectual material within this file and the samples are under ownership of my label and I, whic is why I have it under a CC BY-NC-SA license. If you have any questions feel free to send me a message.
 
-  I can't wait to hear what you make!!! Happy coding ♡
+I can't wait to hear what you make!!! Happy coding ♡
 
 *** Pleaseeee no AI
 
@@ -47,4 +43,3 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⠀⠀⣺⠓⠊⠴⢄⣿⠒⠀⠀⢰⡇⠀⠁⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢀⠃⠡⠀⠀⢸⠀⠀⠀⠀⢘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠠⠀⣀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-*/
