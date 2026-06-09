@@ -8,13 +8,13 @@
 ▐▌   ▐▌ ▐▌▗▄█▄▖▐▙▄▄▖    ▗▄▄▞▘▐▌ ▐▌▐▌   ▐▙▄▄▖
 
 
-  HI! Welcome to my first "open sourced" project :) I've been waiting for the right moment to share some actual source code with you guys and after seeing the response to Fail-safe I decided now was the perfect time.
-
-  Make sure you download all the samples from my GitHub and import them into Strudel so you can hear the full track (menu => sounds => import sounds). YOu can just drag the whole main samples folder in.
-
-    I left notes throughout the file to help with understanding how I wrote everything -- like noting where certain elements are and which code sections you can mostly ignore. Everything is obviously editable, so go crazy! If you encounter any technical difficulties when executing this file, send a message on Discord and I'll help you!
+  HI! Welcome to my first "open sourced" project :) I've been waiting for the right moment to share some actual source code with you guys and after seeing the response to Fail-safe I decided now was the perfect time. Feel free to edit, remix, or just play around with this track, and if you make something you like, please share it in the discord [https://discord.gg/ZU6SUs6Mem] !!
   
-  One last note before you get started => I want to mention that while I am making the source code and samples available, the intellectual material within this file and the samples are under ownership of my label and I, whic is why I have it under a CC BY-NC-SA license. If you have any questions feel free to send me a message.
+  Make sure you download all the Fail-safe samples from my GitHub and import them into Strudel so you can hear the full track (menu => sounds => import sounds). You can just drag the whole main samples folder in and they will be linked correctly.
+
+    I left notes throughout the file to help with understanding how I wrote everything -- like noting where certain elements are and which code sections you can mostly ignore. Everything is obviously editable, so go crazy! If you encounter any technical difficulties when executing this file just shoot me a message on discord and I'll help you.
+  
+  One last note before you get started => I want to mention that while I am making the source code and samples available, the intellectual material within this file and the samples are under ownership of my label and I, which is why I have it under a CC BY-NC-SA license. 
 
   I can't wait to hear what you make!!! Happy coding ♡
 
@@ -193,13 +193,13 @@ _$: blockArrange(
 
 // below are all the instrument and vocal loops unstructured. remove/add the _ to play/stop each loop.
 
-_DRUMS: stack (
+DRUMS: stack (
   s("tech:5").duck(2).postgain(5.5).duckdepth(0.9).duckattack("0.15:0.25").hpf(75).speed(0.5).end(0.2).struct(pick(Structures, beat)),
   s(" [ ~ cp]").bank("[KorgDDM110, RolandTR707]").speed(0.8).postgain(0.2).end(0.5).fast(2),
-  s("{hh*16}%1").postgain(0.35).room(0.5).bank("RolandTR808").lpf(10000).speed(1).end(0.1).distort(1).gain(0.5).o(2),
-  s("{hh*16}%1").postgain(0.2).room(0.5).bank("ace").lpf(5000).speed(0.7).end(0.2).distort(1).gain(0.4).o(2).jux(rev),
+  // s("{hh*16}%1").postgain(0.35).room(0.5).bank("RolandTR808").lpf(10000).speed(1).end(0.1).distort(1).gain(0.5).o(2),
+  // s("{hh*16}%1").postgain(0.2).room(0.5).bank("ace").lpf(5000).speed(0.7).end(0.2).distort(1).gain(0.4).o(2).jux(rev),
   s("~ hh").bank("RolandTR808").speed(0.5).gain(0.7).fast(4).room(0).o(2),
-  s("psr:[2|12|24|25]".fast(8)).hpf(2000).speed(1).gain(0.25).ply(2).o(2).lpf(energy).jux(rev),
+  // s("psr:[2|12|24|25]".fast(8)).hpf(2000).speed(1).gain(0.25).ply(2).o(2).lpf(energy).jux(rev),
   // s("breaks165").gain(0.5).loopAt(1).chop(16).fit().o(2).jux(rev),
   // s("FX").struct("- x".fast(4)).gain(2).end(0.5)
 )
@@ -212,12 +212,12 @@ _LEAD: n(irand("6").seg(8).slow(2)).scale("c#4:minor:pentatonic")
   .almostNever(mask(0)).postgain(0.3).ribbon("<4 5>".slow(2), 1).o(2)
 
 
-_BASSLINE: note("{c#3@3 a2@2 e2@3 c#3@0.5 f#2@2.5 a2@2 e2@3}%8"
+BASSLINE: note("{c#3@3 a2@2 e2@3 c#3@0.5 f#2@2.5 a2@2 e2@3}%8"
   .seg(16).slow(2)).trans("[0, -12]").rarely(trans("12"))
   .sound("[supersaw, square]").distort(2)
   .postgain(0.18).hpf(150).lpf(energy).o(2)
 
-_CHOPS: s("CHOPS").clip(1).note("c2").distort(1).postgain(0.1)
+CHOPS: s("CHOPS").clip(1).note("c2").distort(1).postgain(0.1)
   .jux(rev).room(0.5).delay(1).lpf(slider(3000, 300, 3000))
 .slice(16, "[0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15]".fast(4)).ply(2).o(2)
 
