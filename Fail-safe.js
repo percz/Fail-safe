@@ -131,7 +131,7 @@ const bassline = note("{c#3@3 a2@2 e2@3 c#3@0.5 f#2@2.5 a2@2 e2@3}%8"
   .postgain(0.18)//.hpf(150)
   .lpf(energy).o(2)
 
-const chops = s("CHOPS").clip(1).note("c2").distort(1).postgain(0.1)//.trans(5)
+const chops = s("CHOPS").clip(1).note("c2").postgain(2)//.trans(5)
   .jux(rev).room(0.5).delay(1).lpf(slider(3000, 300, 3000))
 .slice(16, "[0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15]".fast(4)).ply(2).o(2)
 
