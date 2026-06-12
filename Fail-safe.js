@@ -105,7 +105,7 @@ const beat = 01
 const energy = slider(10000, 300, 10000)
 // ^ this slider controls the HPF of the bassline and one of the perc elements
 
-const kick =  s("tech:5").duck(2).postgain(5.5).duckdepth(0.9).duckattack("0.15:0.25").hpf(75).speed(0.5).end(0.2).struct(pick(Structures, beat))
+const kick =  s("tech:5").duck(2).postgain(5.5).duckdepth(1).duckattack("0.15:0.25").hpf(75).speed(0.5).end(0.2).struct(pick(Structures, beat))
 const clap = s(" [ ~ cp]").bank("[KorgDDM110, RolandTR707]").speed(0.8).postgain(0.2).end(0.5).fast(2)
 const hhc =  s("{hh*16}%1").postgain(0.35).room(0.5).bank("RolandTR808").lpf(10000).speed(1).end(0.1).distort(1).gain(0.5).o(2)
 const hhc2 =  s("{hh*16}%1").postgain(0.2).room(0.5).bank("ace").lpf(5000).speed(0.7).end(0.2).distort(1).gain(0.4).o(2).jux(rev)
