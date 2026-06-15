@@ -1,8 +1,9 @@
+```
 ▗▄▄▄▖ ▗▄▖ ▗▄▄▄▖▗▖        ▗▄▄▖ ▗▄▖ ▗▄▄▄▖▗▄▄▄▖
 ▐▌   ▐▌ ▐▌  █  ▐▌       ▐▌   ▐▌ ▐▌▐▌   ▐▌   
 ▐▛▀▀▘▐▛▀▜▌  █  ▐▌   ▀▀▀▘ ▝▀▚▖▐▛▀▜▌▐▛▀▀▘▐▛▀▀▘
 ▐▌   ▐▌ ▐▌▗▄█▄▖▐▙▄▄▖    ▗▄▄▞▘▐▌ ▐▌▐▌   ▐▙▄▄▖
-
+```
 
 HI! Welcome to my first "open source" project :) I've been waiting for the right moment to share some actual source code with you guys and after seeing the response to Fail-safe I decided now was the perfect time. Feel free to edit, remix, or just play around with this track, and if you make something you like, please share it in the discord [https://discord.gg/ZU6SUs6Mem] !!
   
@@ -46,7 +47,7 @@ Checkout the Discord for help and chat!
 [BandCamp](https://djdave.bandcamp.com/music)
 
 
-
+```
   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠀⠀⠀⠀⡀⠀⠂⠀⠄⡀⢀⡂⣀⠀⢀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤⣀⣈⠹⢛⣿⣖⣶⡷⢮⡴⣶⡲⣵⣘⣐⣌⣤
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠈⠉⠈⣉⢐⣲⢾⣿⠻⠿⣿⠿⢝⡻⡿⠿⢛⣻
@@ -77,4 +78,4 @@ Checkout the Discord for help and chat!
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢀⠃⠡⠀⠀⢸⠀⠀⠀⠀⢘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠠⠀⣀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-
+```
